@@ -15,7 +15,7 @@ root.render(
   <React.StrictMode>
       <RecoilRoot>
         <ThemeProvider theme={darkTheme}>
-            <BrowserRouter basename='/todolist'>
+            <BrowserRouter basename='/todolist/'>
                 <App />
             </BrowserRouter>
         </ThemeProvider>
