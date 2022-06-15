@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import {createGlobalStyle, ThemeProvider} from "styled-components";
 import {darkTheme} from "./theme";
 import {useRecoilState, useRecoilValue} from "recoil";
+import ToDoList from "./components/ToDoList";
 
 const GlobalStyle = createGlobalStyle`
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
@@ -71,6 +72,7 @@ function App() {
   return (
       <>
           <GlobalStyle />
+          <ToDoList />
       </>
   );
 }

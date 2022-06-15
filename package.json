@@ -1,5 +1,4 @@
 {
-  "homepage": "https://chhc130.github.io/react-mastercalss/",
   "name": "masterclass01",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +16,7 @@
     "react-apexcharts": "^1.4.0",
     "react-dom": "^18.1.0",
     "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.32.0",
     "react-query": "^3.39.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
@@ -30,9 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
